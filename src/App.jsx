@@ -8,20 +8,22 @@ import TechStack from "./sections/TechStack.jsx";
 import Testimonials from "./sections/Testimoniald.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import {BrowserRouter} from 'react-router-dom'
 const App = () => {
   return (
-   <>
-   <NavBar/>
-   <Hero/>
-   <ShowcaseSection/>
-       <LogoSection/>
-       <FeatureCard/>
-       <ExperienceSection/>
-       <TechStack/>
-       <Testimonials/>
-       <Contact/>
-       <Footer/>
-   </>
+  <BrowserRouter basename="react-portolio">
+      <NavBar/>
+      <Hero/>
+      <ShowcaseSection/>
+      <LogoSection/>
+      <FeatureCard/>
+      <ExperienceSection/>
+      <TechStack/>
+      <Testimonials/>
+      <Contact/>
+      <Footer/>
+  </BrowserRouter>
+
   )
 }
 
