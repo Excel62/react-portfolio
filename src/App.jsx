@@ -11,7 +11,7 @@ import Footer from "./sections/Footer.jsx";
 import {BrowserRouter} from 'react-router-dom'
 const App = () => {
   return (
-  <BrowserRouter basename="react-portolio">
+  <BrowserRouter>
       <NavBar/>
       <Hero/>
       <ShowcaseSection/>
